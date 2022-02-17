@@ -1,0 +1,25 @@
+@import url(/styles/utility-new.css);
+.hero-image {
+  width: 100vw;
+  height: 80rem;
+}
+
+.c-navbar {
+  position: fixed;
+}
+
+.avatar {
+  margin-right: 5rem;
+  width: 40rem;
+  height: 40rem;
+}
+
+.category {
+  position: relative;
+  right: -14rem;
+}
+
+.landing-section a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
