@@ -1,4 +1,8 @@
 @import url(/styles/utility-new.css);
+:root {
+  --wishlist-color: #ff0000;
+}
+
 .hero-image {
   width: 100vw;
   height: 80rem;
