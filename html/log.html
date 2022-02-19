@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Touring Shop|Saddle Bags</title>
+    <link
+      rel="stylesheet"
+      href="https://concreteui.netlify.app/styles/index.css"
+    />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/luggage.css" />
+    <link rel="stylesheet" href="/styles/cart.css" />
+    <link rel="stylesheet" href="/styles/log.css">
+  </head>
+  <body>
+    <header>
+      <nav class="c-navbar flex-center justify-between px-4">
+        <a class="fs-8" href="/index.html"> Touring Shop </a>
+        <div class="search-bar">
+          <input class="flex-center nav-input" type="search" />
+          <i class="fa fa-search search-icon" aria-hidden="true"></i>
+        </div>
+        <ul class="flex-col text-center">
+          <li class="fs-7 mx-8">
+            <a href="/html/log.html">Login</a>
+          </li>
+          <li class="nav-item fs-7 mx-8">
+            <a href="/html/wishlist.html">
+              <i class="far fa-heart fa-xl mr-4"></i>
+            </a>
+            <a href="/html/cart.html">
+              <i class="fas fa-cart-plus"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="pt-8 flex">
+      <aside class="sidebar-log mr-4">
+        <img
+          class="responsive-image"
+          src="/images/signup.jpeg"
+          alt="A girl on a motorcylce"
+        />
+      </aside>
+      <main class="products-display grow flex-center flex-col">
+        <div>
+          <form action="" method="get" class="form">
+            <div class="form">
+              <div class="mb-2">
+                <span>Email</span>
+              </div>
+              <input class="w-92" type="email" name="email" id="email" required />
+            </div>
+            <div class="form">
+              <div class="my-2">
+                <span>Password</span>
+              </div class="password">
+              <input class="w-92" type="text" name="password" id="password" required />
+              <i class="fa fa-eye-slash hide-password" aria-hidden="true"></i>
+            </div>
+            <div>
+            <input class="my-4" type="checkbox" id="Remember" name="Remember" />
+              <label class="fs-5 mx-4" for="Remember">Remember me</label>
+              <span class="fs-5 mx-4" for="Remember">Forgot Password ?</span>
+            </div>
+            <div class="form">
+              <input class="btn-link w-92" type="submit" value="Sign In" />
+            </div>
+            <div class="mt-8 fs-5">
+                <span>Need an account ?</span>
+                <a href="/html/signup.html">Create an account</a>
+            </div>
+          </form>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
