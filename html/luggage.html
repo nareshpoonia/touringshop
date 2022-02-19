@@ -35,8 +35,74 @@
     <div class="products-section flex">
       <aside class="sidebar mr-4">
         <div class="mt-8">
-          <h2 class="mx-8s">Filters</h2>
-          <h2>Clear</h2>
+          <span class="mx-8 fs-8 mb-8">Filters</span>
+          <span class="mx-8 fs-8 clear-all-btn">Clear All</span>
+        </div>
+        <div class="m-8">
+          <span class="fs-8 sort">Sort By</span>
+        </div>
+        <div>
+          <input
+            class="mx-8 mt-4"
+            type="radio"
+            id="low"
+            name="sort"
+            value="low"
+            checked
+          />
+          <label class="fs-6" for="low">Price - Low to High</label>
+        </div>
+        <div>
+          <input
+            class="mx-8 mt-8"
+            type="radio"
+            name="sort"
+            id="high"
+            value="high"
+          />
+          <label class="fs-6" for="high">Price - High to Low</label>
+        </div>
+
+        <div class="m-8">
+          <span class="fs-8 sort">Category</span>
+        </div>
+        <div>
+          <input
+            class="mx-8 mt-4"
+            type="checkbox"
+            id="saddle"
+            name="saddle"
+            checked
+          />
+          <label class="fs-6" for="saddle">Saddle Bag</label>
+        </div>
+        <div>
+          <input
+            class="mx-8 mt-8"
+            type="checkbox"
+            name="panniers"
+            id="panniers"
+          />
+          <label class="fs-6" for="panniers">Panniers</label>
+          <div class="m-8">
+            <span class="fs-8">Ratings</span>
+          </div>
+          <div class="m-8">
+            <input
+              class="ratings-slider"
+              type="range"
+              id="ratings"
+              name="ratings"
+              min="0"
+              max="5"
+            />
+            <label for="ratings"></label>
+          </div>
+          <div class="fs-8 m-8 flex justify-between">
+            <span>1</span>
+            <span>3</span>
+            <span>5</span>
+          </div>
         </div>
       </aside>
       <main class="products-display grow">
