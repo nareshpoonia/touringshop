@@ -17,6 +17,10 @@
   margin-left: 32rem;
 }
 
+.pt-8 {
+  padding-top: 4rem;
+}
+
 .flex {
   display: flex;
 }
@@ -51,6 +55,10 @@
 
 .w-11 {
   width: 2.75rem;
+}
+
+.w-92 {
+  width: 23rem;
 }
 
 .pt-32 {
