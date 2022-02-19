@@ -25,3 +25,15 @@
 .fa-cart-plus:hover {
   border-radius: 50%;
 }
+
+.clear-all-btn {
+  color: var(--clear-filter);
+}
+
+.sort {
+  margin-top: 6rem;
+}
+
+.ratings-slider {
+  width: 100%;
+}

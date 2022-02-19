@@ -35,8 +35,86 @@
     <div class="products-section flex">
       <aside class="sidebar mr-4">
         <div class="mt-8">
-          <h2 class="mx-8s">Filters</h2>
-          <h2>Clear</h2>
+          <span class="mx-8 fs-8 mb-8">Filters</span>
+          <span class="mx-8 fs-8 clear-all-btn">Clear All</span>
+        </div>
+        <div class="m-8">
+          <span class="fs-8 sort">Sort By</span>
+        </div>
+        <div>
+          <input
+            class="mx-8 mt-4"
+            type="radio"
+            id="low"
+            name="sort"
+            value="low"
+            checked
+          />
+          <label class="fs-6" for="low">Price - Low to High</label>
+        </div>
+        <div>
+          <input
+            class="mx-8 mt-8"
+            type="radio"
+            name="sort"
+            id="high"
+            value="high"
+          />
+          <label class="fs-6" for="high">Price - High to Low</label>
+        </div>
+
+        <div class="m-8">
+          <span class="fs-8 sort">Category</span>
+        </div>
+        <div>
+          <input
+            class="mx-8 mt-4"
+            type="checkbox"
+            id="saddle"
+            name="saddle"
+            checked
+          />
+          <label class="fs-6" for="saddle">Saddle Bag</label>
+        </div>
+        <div>
+          <input
+            class="mx-8 mt-8"
+            type="checkbox"
+            name="panniers"
+            id="panniers"
+          />
+          <label class="fs-6" for="panniers">Panniers</label>
+          <div class="m-8">
+            <span class="fs-8">Ratings</span>
+          </div>
+          <div class="m-8">
+            <input
+              class="ratings-slider"
+              type="range"
+              list="tickmarks"
+            />
+            <datalist id="tickmarks">
+              <option value="0" label="0"></option>
+              <option value="10"></option>
+              <option value="20" label="1"></option>></option>
+              <option value="30"></option>
+              <option value="40" label="2"></option>></option>
+              <option value="50"></option>
+              <option value="60" label="3"></option>></option>
+              <option value="70"></option>
+              <option value="80" label="4"></option>></option>
+              <option value="90"></option>
+              <option value="100" label="5"></option>
+            </datalist>
+          </div>
+          <div class="fs-8 m-8 flex justify-between">
+            <span>0</span>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+          </div>
         </div>
       </aside>
       <main class="products-display grow">
