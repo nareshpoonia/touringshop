@@ -27,7 +27,7 @@
 }
 
 .clear-all-btn {
-  color: blue;
+  color: var(--clear-filter);
 }
 
 .sort {
