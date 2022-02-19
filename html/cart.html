@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Touring Shop|Saddle Bags</title>
+    <link
+      rel="stylesheet"
+      href="https://concreteui.netlify.app/styles/index.css"
+    />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/luggage.css" />
+    <link rel="stylesheet" href="/styles/cart.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="c-navbar flex-center justify-between px-4">
+        <a class="fs-8" href="/index.html"> Touring Shop </a>
+        <div class="search-bar">
+          <input class="flex-center nav-input" type="search" />
+          <i class="fa fa-search search-icon" aria-hidden="true"></i>
+        </div>
+        <ul class="flex-col text-center">
+          <li class="fs-7 mx-8">
+            <a href="/html/list.html">Login</a>
+          </li>
+          <li class="nav-item fs-7 mx-8">
+            <a href="/html/cart.html">
+              <i class="fas fa-cart-plus"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="products-section flex">
+      <aside class="sidebar-cart mr-4">
+        <figure>
+          <div class="card-container ml-128 mt-32 m-8">
+            <img
+              class="img-size"
+              src="/images/guardian-gears-3.jpg"
+              alt="Sample"
+            />
+            <div class="card-text-container">
+              <div class="mb-2 fw-6 fs-6">Guardian Gears Saddle Bag</div>
+
+              <div class="mb-2 fw-5 fs-6">Guardian Gears</div>
+              <div>
+                <span class="fs-6">Quantity</span>
+                <i class="fas fa-minus"></i>
+               <input class="w-11" id="number" type="number" value="2">
+
+                <i class="fa fa-plus" aria-hidden="true"></i>
+              </div>
+
+              <div>
+                <span class="fs-6 fw-5 mb-2">₹ 6,758</span>
+              </div>
+              <div class="card-footer flex-align-center mr-1">
+                <div>
+                  <button class="btn-icon btn-link">
+                    <span> Remove from Cart </span>
+                  </button>
+                  <button class="btn-icon btn-link">
+                    <span> Move to Wishlist </span>
+                  </button>
+              </div>
+            </div>
+          </div>
+        </figure>
+      </aside>
+      <main class="products-display grow">
+        <figure>
+          <div class="card-container mt-32">
+            <div class="card-text-container">
+              <div class="mb-4 fw-6 fs-6">Price Detail</div>  
+                <div class="mb-4 fw-6 fs-6">Quantity - 2Nos.</div>
+                <div class="mb-4 fw-6 fs-6">Unit Price ₹ 3,399</div>
+              <div class="mb-2 fw-6 fs-6">SubTotal ₹ 6,758</div>
+              <div>
+                <input class="my-8" type="checkbox" id="gift" name="gift" />
+                <label class="fs-6" for="gift">This order contains a gift</label>
+              </div>
+              <div class="card-footer flex-align-center mr-1">
+                <button class="btn-icon btn-link mb-8">
+                  <span> Proceed to Buy </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </figure>
+      </main>
+    </div>
+  </body>
+</html>
